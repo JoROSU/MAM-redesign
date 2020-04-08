@@ -413,7 +413,7 @@ blockquote{
     background: none;
     font-style: normal;
     line-height: 1.7;
-    color: #777;
+    color: #111;
 }
 blockquote p{
     margin-bottom: 1em;
@@ -3830,10 +3830,6 @@ a.logo:hover{
 
 .banner-image{
     margin: -100px 0;
-    text-align: right;
-}
-.banner-image img{
-    
 }
 
 
@@ -6709,4 +6705,13 @@ section:hover .small-item-carousel .owl-next{
     width:50px;
     height:50px;
     background:black;
+}
+
+.font-tryanglist{
+    font-family: 'Oswald', sans-serif;
+    
+}
+.font-tryanglist h1{
+    font-size: 120px;
+    margin-bottom:10px;
 }

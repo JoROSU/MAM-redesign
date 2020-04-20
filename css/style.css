@@ -2991,11 +2991,11 @@ a.logo:hover{
 }
 .alt-service-icon{
     width: 50px;
+    margin-top:0;
     height: 50px;
     position: absolute;
     top: 0;
     left: 0;
-    line-height: 40px;
     text-align: center;
     font-size: 40px;
     color: #222;
@@ -3007,7 +3007,12 @@ a.logo:hover{
     transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .alt-services-title{
-    font-weight: bold;
+font-weight: bold;
+    margin-top:0;
+    margin-bottom:0;
+}
+.alt-services-title span{
+    font-size:35px;
 }
 
 
@@ -6635,6 +6640,15 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .bb-multicolor:after {
+    background: linear-gradient(to right,   #c40309 33%, #f5990d 33%, #f5990d 67%, #165c74 67%);
+    position: absolute;
+    content: '';
+    height: 4px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.bt-multicolor:before {
     background: linear-gradient(to right,   #c40309 33%, #f5990d 33%, #f5990d 67%, #165c74 67%);
     position: absolute;
     content: '';

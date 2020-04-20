@@ -62,7 +62,7 @@ Primary use:    MultiPurpose Template
         /* padding-left: 48px; */
     }
     .alt-services-title{
-        font-size: 18px;
+        font-size: 22px;
         margin-bottom: 5px;
         margin-top: 0;
     }
@@ -304,6 +304,9 @@ Primary use:    MultiPurpose Template
         position: relative;
         width:100%;
     }
+    .alt-services-title{
+        padding-left:55px;
+    }
 
     .works-filter a{
         padding-left: 10px;
@@ -345,6 +348,10 @@ Primary use:    MultiPurpose Template
     .fm-button{
         top: 17px;
         right: 17px;
+    }
+
+    .alt-service-icon{
+        margin-top: 0;
     }
 
 }

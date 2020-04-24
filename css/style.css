@@ -3639,6 +3639,8 @@ font-weight: bold;
     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -ms-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .work-item:hover .work-img > img{

@@ -1887,8 +1887,8 @@ a.logo:hover{
     font-size: 11px;
     font-weight: 400;
     text-transform: uppercase;
-    border-left: 1px solid rgba(0,0,0, .05);
-    border-right: 1px solid rgba(0,0,0, .05);
+    border-left: 1px solid rgba(0,0,0, .0);
+    border-right: 1px solid rgba(0,0,0, .0);
     cursor: pointer;
     
     -webkit-user-select: none;  
@@ -3508,12 +3508,11 @@ font-weight: bold;
 }
 .work-intro{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     
     -webkit-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    text-align: center;
     overflow: hidden;
 }
 .work-title{
@@ -3526,23 +3525,30 @@ font-weight: bold;
     line-height: 1.2;
 }
 .work-descr{    
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
-    color: #aaa;
+    color: #111;
     line-height: 1.2;
+    margin-bottom:10px;
+}
+.work-intro p{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 200;
 }
 .work-links{    
-    font-size: 11px;
+    font-size: 14px;
     padding: 10px 0;
     text-align: center;
-    
+    font-weight: 400;
     line-height: 1.2;
 }
 .work-links a{    
     padding: 10px 5px;
     font-size: 15px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 .work-links a:hover{    
     text-decoration: line-through;

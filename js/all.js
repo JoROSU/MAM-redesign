@@ -367,25 +367,127 @@
             },
             mainClass: "mfp-fade"
         });
+         // Works Item Forward	
+         $(".lightbox-gallery-forward").magnificPopup({
+             items: [
+            {
+                src: 'images/portfolio/forward/forward-1.jpg',
+                title: 'Forward Conference -  Main Stage - Human & Technology'
+            },
+            {
+                src: 'images/portfolio/forward/forward-2.jpg',
+                title: 'Forward Conference -  Main Stage - Future of the World'
+            },
+            {
+                src: 'images/portfolio/forward/forward-3.jpg',
+                title: 'Forward Conference -  Main Stage - Mtel'
+            },
+            {
+                src: 'images/portfolio/forward/forward-4.jpg',
+                title: 'Forward Conference -  Main Stage - Balcony View'
+            },
+            {
+                src: 'images/portfolio/forward/forward-5.jpg',
+                title: 'Forward Conference -  Main Entrance'
+            }
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image' // this is a default type
+        });
+         // Works Item Karolina Nojber
+         $(".lightbox-gallery-karolina").magnificPopup({
+            items: [
+                {
+                src: 'images/portfolio/karolinanojber/1.jpg',
+                title: 'Karolina Nojber -  Scenography'
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/2.jpg',
+                    title: 'Karolina Nojber -  Scenography'
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/3.jpg',
+                    title: 'Karolina Nojber -  Scenography'
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/4.jpg',
+                    title: 'Karolina Nojber -  Scenography'
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/5.jpg',
+                    title: 'Karolina Nojber -  Scenography'
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/6.jpg',
+                    title: 'Karolina Nojber -  Scenography'
+                }
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image' // this is a default type
+       });
+        // Works Item Hair Studio NOVA
+        $(".lightbox-gallery-nova").magnificPopup({
+            items: [
+                {
+                src: 'images/portfolio/nova/1.jpg',
+                title: 'NOVA Hair Studio -  Master Logo'
+                },
+                {
+                    src: 'images/portfolio/nova/2.jpg',
+                    title: 'NOVA Hair Studio -  Inspiration'
+                },
+                {
+                    src: 'images/portfolio/nova/3.jpg',
+                    title: 'NOVA Hair Studio -  Color Palette'
+                },
+                {
+                    src: 'images/portfolio/nova/4.jpg',
+                    title: 'Karolina Nojber -  Logo Usage'
+                },
+                {
+                    src: 'images/portfolio/nova/5.jpg',
+                    title: 'Karolina Nojber -  Logo Usage'
+                },
+                {
+                    src: 'images/portfolio/nova/6.jpg',
+                    title: 'Karolina Nojber -  Logo Usage'
+                },
+                {
+                    src: 'images/portfolio/nova/7.jpg',
+                    title: 'Karolina Nojber -  Brand Guideline'
+                }
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image' // this is a default type
+       });
         
-        // Works Item Lightbox	
-        $(".lightbox-gallery-1").magnificPopup({
+        // Works Item Sanja
+        $(".lightbox-gallery-sanja").magnificPopup({
+            items: [
+                {
+                src: 'images/portfolio/borntobloom/1.jpg',
+                title: 'Sanja Tesic | Author, Speaker, Coach -  Master Logo'
+                },
+                {
+                    src: 'images/portfolio/borntobloom/2.jpg',
+                    title: 'Sanja Tesic | Author, Speaker, Coach -  Logo Usage'
+                },
+                {
+                    src: 'images/portfolio/borntobloom/3.jpg',
+                    title: 'Sanja Tesic | Author, Speaker, Coach - Social Media Strategy'
+                },
+            ],
             gallery: {
                 enabled: true
-            }
-        });
-        
-        // Other Custom Lightbox
-        $(".lightbox-gallery-2").magnificPopup({
-            gallery: {
-                enabled: true
-            }
-        });
-        $(".lightbox-gallery-3").magnificPopup({
-            gallery: {
-                enabled: true
-            }
-        });
+            },
+            type: 'image' // this is a default type
+       });
         $(".lightbox").magnificPopup();
         
     }

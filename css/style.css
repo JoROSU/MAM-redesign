@@ -482,8 +482,11 @@ hr.black{
         font-style: normal;
         line-height: 1.2;
 }
-.font-50{
+.font-75{
     font-size:75px;
+}
+.font-50{
+    font-size:50px;
 }
 .font-32{
     font-size:32px;
@@ -2448,6 +2451,9 @@ a.logo:hover{
 }
 .small-section{
     padding: 70px 0;
+}
+.middle-section{
+    padding: 100px 0;
 }
 .footer-section{
     padding: 40px 0;

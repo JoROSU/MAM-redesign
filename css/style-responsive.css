@@ -162,7 +162,6 @@ Primary use:    MultiPurpose Template
 }
   
 @media only screen and (max-width: 992px) {
-    
     .hs-line-1 {
         letter-spacing: 23px;
     }
@@ -249,7 +248,12 @@ Primary use:    MultiPurpose Template
    ============================== */
   
 @media only screen and (max-width: 768px) {
-
+    .home-section{
+        background-image: url("../images/full-width-images/bg-MAM-responsive.jpg");
+    }
+    .font-50 {
+        font-size: 50px;
+    }
     .hs-wrap {
         max-width: 400px;
     }

@@ -454,8 +454,9 @@ hr.black{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 .font-alt{
-    font-family: Playfair Display, arial, sans-serif;
+    font-family: Muli, arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -482,7 +483,7 @@ hr.black{
         line-height: 1.2;
 }
 .font-50{
-    font-size:50px;
+    font-size:75px;
 }
 .font-32{
     font-size:32px;
@@ -1076,6 +1077,7 @@ a.btn-mod:focus{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-image: url("../images/full-width-images/bg-MAM.jpg");
 }
 
 .home-content{
@@ -3408,6 +3410,7 @@ font-weight: bold;
  * Works filter
  */
 
+
 .works-filter{
     list-style: none;
     padding: 0;
@@ -3463,6 +3466,11 @@ font-weight: bold;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+.portfolio-item{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    bottom: 0;
 }
 .work-grid-2 .work-item{
     width: 50%;
@@ -3639,8 +3647,6 @@ font-weight: bold;
     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -ms-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 .work-item:hover .work-img > img{

@@ -457,7 +457,6 @@ hr.black{
 
 .font-alt{
     font-family: Playfair Display, arial, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 .font-basic{
@@ -783,7 +782,7 @@ a.btn-mod:focus{
 
 .btn-mod.btn-w{
     color: #222;
-    background: rgba(255,255,255, .8);
+    background: rgba(255,255,255, .01);
 }
 .btn-mod.btn-w:hover,
 .btn-mod.btn-w:focus{
@@ -2453,7 +2452,7 @@ a.logo:hover{
     padding: 70px 0;
 }
 .middle-section{
-    padding: 100px 0;
+    padding: 200px 0 100px;
 }
 .footer-section{
     padding: 40px 0;
@@ -2977,7 +2976,7 @@ a.logo:hover{
 }
 .alt-service-item{
     position: relative;
-    padding-left: 75px;
+    padding-left: 25px;
     padding-top: 3px;
     font-size: 13px;
     font-weight: 300;
@@ -3015,12 +3014,16 @@ a.logo:hover{
     transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .alt-services-title{
-font-weight: bold;
+font-weight: 500;
     margin-top:0;
     margin-bottom:0;
+    text-transform: none;
 }
 .alt-services-title span{
     font-size:35px;
+}
+.positon-relative{
+    position:relative;
 }
 
 
@@ -5482,7 +5485,7 @@ section:hover .small-item-carousel .owl-next{
     color: #777;
     text-decoration: none;
     padding: 14px 20px;
-    border: 1px solid #e5e5e5;
+    /* border: 1px solid #e5e5e5; */
     
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -5491,17 +5494,17 @@ section:hover .small-item-carousel .owl-next{
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .toggle > dt > a:hover{
-    text-decoration: none;
+    /* text-decoration: none;
     border-color: #ddd;
-    background-color: #fcfcfc;    
+    background-color: #fcfcfc;     */
     color: #444;
 }
 .toggle > dt > a.active{
     color: #000;
-    border-color: #ddd;
-    background-color: #fcfcfc;
+    /* border-color: #ddd;
+    background-color: #fcfcfc; */
 }
-.toggle > dt > a:after{
+/* .toggle > dt > a:after{
     content: "\f107";
     width: 15px;
     height: 15px;
@@ -5533,7 +5536,7 @@ section:hover .small-item-carousel .owl-next{
 }
 .toggle > dt > a:hover:after{
     color: #444;
-}
+} */
 .toggle > dd{
     margin-bottom: 10px;
     padding: 10px 20px 20px;
@@ -6681,6 +6684,9 @@ section:hover .small-item-carousel .owl-next{
 .text-center{
     text-align:center;
 }
+.text-rigt{
+    text-align:right;
+}
 .small-title{
     text-align:left;
 }
@@ -6748,4 +6754,13 @@ section:hover .small-item-carousel .owl-next{
 .font-tryanglist h1{
     font-size: 120px;
     margin-bottom:10px;
+}
+
+.img-descriptive{
+    margin-top:-120px;
+    z-index: -5;
+}
+
+.ml-65{
+    margin-left:65px;
 }

@@ -251,6 +251,9 @@ Primary use:    MultiPurpose Template
     .home-section{
         background-image: url("../images/full-width-images/bg-MAM-responsive.jpg");
     }
+    .basic-section{
+        padding:40px 0;
+    }
     .font-75 {
         font-size: 50px;
     }
@@ -312,7 +315,7 @@ Primary use:    MultiPurpose Template
         width:100%;
     }
     .alt-services-title{
-        padding-left:55px;
+        padding-left:0;
     }
 
     .works-filter a{
@@ -697,7 +700,7 @@ Primary use:    MultiPurpose Template
     .section-title,
     .split-section-headings .section-title,
     .wide-heading {
-        font-size: 24px;
+        font-size: 20px;
         letter-spacing: 2px;
     }    
     .section-heading,

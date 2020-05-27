@@ -260,6 +260,9 @@ Primary use:    MultiPurpose Template
     .ml-65{
         margin-left:0;
     }
+    .ml-xs-0{
+        margin-left:0!important;
+    }
     .position-over{
         position:relative;
     }

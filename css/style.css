@@ -6777,3 +6777,8 @@ section:hover .small-item-carousel .owl-next{
     right: 0;
     bottom: 0;
 }
+
+.container-fluid{
+    padding-left:15px;
+    padding-right:15px;
+}

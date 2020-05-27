@@ -266,6 +266,9 @@ Primary use:    MultiPurpose Template
     .position-over{
         position:relative;
     }
+    .pa-0{
+        padding:0;
+    }
     .hs-wrap {
         max-width: 400px;
     }

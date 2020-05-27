@@ -6769,3 +6769,11 @@ section:hover .small-item-carousel .owl-next{
 .ml-65{
     margin-left:65px;
 }
+
+.position-over{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}

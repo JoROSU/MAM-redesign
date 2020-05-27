@@ -260,6 +260,9 @@ Primary use:    MultiPurpose Template
     .ml-65{
         margin-left:0;
     }
+    .position-over{
+        position:relative;
+    }
     .hs-wrap {
         max-width: 400px;
     }

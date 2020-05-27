@@ -6690,7 +6690,12 @@ section:hover .small-item-carousel .owl-next{
 .small-title{
     text-align:left;
 }
-
+.icon-list span{
+    font-size:12px;
+}
+.link-title > a{
+    text-decoration: none;
+}
 .quadro{
     position: absolute;
     width: 400px;

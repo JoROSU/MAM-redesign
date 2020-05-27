@@ -251,7 +251,7 @@ Primary use:    MultiPurpose Template
     .home-section{
         background-image: url("../images/full-width-images/bg-MAM-responsive.jpg");
     }
-    .basic-section{
+    .basic-section-xs{
         padding:40px 0;
     }
     .font-75 {
@@ -266,9 +266,15 @@ Primary use:    MultiPurpose Template
     .hs-line-2{
         font-size: 50px;
     }
-    
+    .middle-section-xs{
+        margin-bottom:0;
+        padding-bottom:0;
+    }
     .hs-line-7 {
         font-size: 50px;
+    }
+    .text-center-xs{
+        text-align: center;
     }
     
     .page-section {
